@@ -136,7 +136,7 @@ export default function Hero() {
             </motion.div>
 
             {/* Headline */}
-            <h1 className="font-display text-[58px] xl:text-[68px] font-extrabold leading-[1.02] tracking-[-1.5px] mb-6">
+            <h1 className="font-display text-[40px] xl:text-[68px] font-extrabold leading-[1.02] tracking-[-1.5px] mb-6">
               <AnimatedLine words={['We', 'build', 'AI', 'systems']} baseDelay={0.35} />
               <AnimatedLine words={['that', 'work', 'for', 'you']} color="text-forge-amber" baseDelay={0.62} />
               <AnimatedLine words={['around', 'the', 'clock.']} color="text-white/28" baseDelay={0.9} />
@@ -186,7 +186,7 @@ export default function Hero() {
                   key={label}
                   className={`px-5 py-5 ${i < METRICS.length - 1 ? 'border-r border-forge-border' : ''}`}
                 >
-                  <div className="font-display text-2xl xl:text-3xl font-extrabold text-white mb-1 tracking-tight">
+                  <div className="font-display text-1.5xl xl:text-3xl font-extrabold text-white mb-1 tracking-tight">
                     <span className="text-forge-amber">{value.replace(/[0-9]+/, '')}</span>
                     {value.replace(/[^0-9]/g, '') && (
                       <>{value.replace(/[^0-9]/g, '')}</>
