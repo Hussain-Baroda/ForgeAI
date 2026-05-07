@@ -3,7 +3,7 @@ import Link from 'next/link';
 const FOOTER_LINKS = {
   'Services':   ['AI Agents', 'Lead Qualification', 'Voice Agents', 'RAG Systems', 'Ops Automation'],
   'Company':    ['About', 'Process', 'Work', 'Blog'],
-  'Connect':    ['hello@forgeai.com', 'LinkedIn', 'Twitter / X'],
+  'Connect':    ['barodawalahusain@gmail.com', 'LinkedIn', 'Twitter / X'],
 };
 
 export default function Footer() {

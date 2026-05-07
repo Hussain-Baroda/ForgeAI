@@ -28,26 +28,20 @@ const VALUES = [
 
 const TEAM = [
   {
-    initials: 'RK',
-    name:     'Rohan Kulkarni',
-    role:     'Founder & Lead Engineer',
-    bio:      'Ex-ML engineer. Built production AI systems at scale. Stopped writing slide decks in 2022.',
+    initials: 'HSB',
+    name:     'Hussain Barodawala',
+    role:     'Founder & FullStack Engineer',
+    bio:      'Full-stack developer focused on AI automation, scalable products, and clean user experiences.',
     color:    'bg-amber-500/15 text-amber-300',
   },
   {
-    initials: 'AS',
-    name:     'Aisha Sharma',
-    role:     'Agent Architect',
-    bio:      'Specialises in multi-agent orchestration and RAG systems. Previously led AI infra at a Series B.',
+    initials: 'B',
+    name:     'Burhan Contractor',
+    role:     'Co-founder & AI Engineer',
+    bio:      'Focused on AI automation, agent orchestration, and production-ready ML systems that solve real problems.',
     color:    'bg-violet-500/15 text-violet-300',
   },
-  {
-    initials: 'MT',
-    name:     'Marcus Torres',
-    role:     'Integrations Lead',
-    bio:      'Deep in CRM and workflow tooling — HubSpot, Salesforce, Make, n8n. Connects agents to existing stacks.',
-    color:    'bg-cyan-500/15 text-cyan-300',
-  },
+  
 ];
 
 function ValueCard({ icon, title, desc, index }) {
@@ -126,11 +120,20 @@ export default function About() {
               {/* Founder signature */}
               <div className="flex items-center gap-3 pt-2 border-t border-forge-border mt-2">
                 <div className="w-9 h-9 rounded-full bg-forge-amber/15 border border-forge-amber/25 flex items-center justify-center font-display text-[12px] font-extrabold text-forge-amber">
-                  RK
+                  HSB
                 </div>
                 <div>
-                  <p className="font-display text-[12px] font-bold text-white">Rohan Kulkarni</p>
+                  <p className="font-display text-[12px] font-bold text-white">Hussain Barodawala</p>
                   <p className="text-[11px] text-white/30">Founder, ForgeAI</p>
+                </div>
+                
+                {/* Founder signature */}
+                <div className="w-9 h-9 rounded-full bg-forge-amber/15 border border-forge-amber/25 flex items-center justify-center font-display text-[12px] font-extrabold text-forge-amber">
+                  B
+                </div>
+                <div>
+                  <p className="font-display text-[12px] font-bold text-white">Burhan Contractor</p>
+                  <p className="text-[11px] text-white/30">Co-founder, ForgeAI</p>
                 </div>
               </div>
             </div>

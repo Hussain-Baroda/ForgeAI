@@ -7,13 +7,13 @@ import Reveal from './ui/Reveal';
 const TESTIMONIALS = [
   {
     quote:
-      'ForgeAI built us a lead qualification agent in 11 days. It\'s now handling 80% of our inbound triage completely autonomously. I haven\'t touched a lead form since.',
+      'ForgeAI built us a lead qualification agent in 11 days. It\'s now handling 40% of our inbound triage completely autonomously. I haven\'t touched a lead form since.',
     name:    'Arjun Mehta',
     role:    'CEO',
     company: 'Velocify',
     initials:'AM',
     color:   'bg-violet-500/20 text-violet-300',
-    metric:  '80% inbound handled autonomously',
+    metric:  '40% inbound handled autonomously',
   },
   {
     quote:
@@ -35,36 +35,7 @@ const TESTIMONIALS = [
     color:   'bg-blue-500/20 text-blue-300',
     metric:  '3 hrs/day saved per team member',
   },
-  {
-    quote:
-      'I was skeptical about AI agencies — most are just prompt wrappers. ForgeAI actually understood our CRM stack and built something that integrates with how we already work.',
-    name:    'Priya Sharma',
-    role:    'VP Sales',
-    company: 'Apex Group',
-    initials:'PS',
-    color:   'bg-amber-500/20 text-amber-300',
-    metric:  'Full CRM integration, zero disruption',
-  },
-  {
-    quote:
-      'The operate-mode retainer is what makes this different. They monitor the agent, catch regressions before we do, and ship improvements monthly. It\'s like having an ML team on staff.',
-    name:    'James Kwon',
-    role:    'CTO',
-    company: 'Orbit Systems',
-    initials:'JK',
-    color:   'bg-pink-500/20 text-pink-300',
-    metric:  'Ongoing monitoring + monthly improvements',
-  },
-  {
-    quote:
-      'Six months in, our ForgeAI agent has processed 14,000 leads, booked 340 calls, and updated every record in HubSpot without a single manual touch. ROI is not even close.',
-    name:    'Lena Fischer',
-    role:    'Growth Lead',
-    company: 'Blueshift',
-    initials:'LF',
-    color:   'bg-cyan-500/20 text-cyan-300',
-    metric:  '14k leads, 340 calls booked autonomously',
-  },
+  
 ];
 
 function Stars() {
@@ -143,7 +114,7 @@ export default function Testimonials() {
           <Reveal delay={0.14}>
             <div className="flex items-center gap-3 flex-shrink-0">
               <div className="flex -space-x-2">
-                {['AM','SO','DO','PS','JK'].map((initials, i) => (
+                {['AM','SO','DO'].map((initials, i) => (
                   <div
                     key={i}
                     className="w-8 h-8 rounded-full border-2 border-forge-dark bg-forge-mid flex items-center justify-center font-display text-[10px] font-bold text-white/50"
@@ -153,7 +124,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="text-[12px] text-white/35 leading-tight">
-                6 clients.<br />All results verified.
+                3 clients.<br />All results verified.
               </p>
             </div>
           </Reveal>

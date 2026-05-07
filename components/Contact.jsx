@@ -74,14 +74,14 @@ export default function Contact() {
                   Prefer to just email?
                 </p>
                 <a
-                  href="mailto:hello@forgeai.com"
+                  href="mailto:barodawalahusain@gmail.com"
                   className="group flex items-center gap-3 text-white hover:text-forge-amber transition-colors duration-200"
                 >
                   <span className="w-9 h-9 rounded-lg bg-forge-amber/10 border border-forge-amber/20 flex items-center justify-center text-forge-amber text-sm flex-shrink-0">
                     ✉
                   </span>
                   <div>
-                    <p className="font-display text-[13px] font-bold">hello@forgeai.com</p>
+                    <p className="font-display text-[13px] font-bold">barodawalahusain@gmail.com</p>
                     <p className="text-[11px] text-white/30 mt-0.5">We reply within one business day</p>
                   </div>
                 </a>
