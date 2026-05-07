@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '../../../lib/supabase';
-
+import { Resend } from 'resend';
 /**
  * POST /api/contact
  *
@@ -31,6 +31,8 @@ import { supabase } from '../../../lib/supabase';
  *     status     text default 'new'   -- new | contacted | closed
  *   );
  */
+const resend = new Resend(process.env.RESEND_API_KEY);
+
 export async function POST(request) {
   try {
     const body = await request.json();
@@ -72,6 +74,24 @@ export async function POST(request) {
         { status: 500 }
       );
     }
+
+    await resend.emails.send({
+      from: process.env.RESEND_FROM_EMAIL,
+      to: process.env.NOTIFY_EMAIL,
+      subject: 'New ForgeAI Lead 🚀',
+      html: `
+        <h2>New Project Inquiry</h2>
+
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Company:</strong> ${company || 'N/A'}</p>
+        <p><strong>Role:</strong> ${role || 'N/A'}</p>
+        <p><strong>Budget:</strong> ${budget || 'N/A'}</p>
+
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    });
 
     return NextResponse.json({ success: true });
 
