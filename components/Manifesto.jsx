@@ -12,10 +12,10 @@ const STRIKE_LINES = [
 ];
 
 const PRINCIPLES = [
-  'Working agent in your stack — not a roadmap in a Google Doc',
-  'Senior builders only. The people who design it also ship it.',
-  'Bills you for outcomes that show up in your dashboard',
-  "Stays on as your agent's mechanic — evals, monitoring, iteration",
+  'Working systems shipped fast — not endless planning calls.',
+  'No outsourced chaos. The people building your system are the ones you talk to.',
+  'Built to save time, reduce manual work, and actually move operations forward.',
+  "We stay involved after launch — monitoring, improving, and iterating as your workflows evolve.",
 ];
 
 function StrikeLine({ text, delay }) {
@@ -71,9 +71,9 @@ export default function Manifesto() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           <Reveal delay={0.15}>
             <p className="text-[15px] sm:text-[17px] text-white/40 leading-[1.8] font-light">
-              Most businesses are drowning in tasks that a well-built AI agent could
-              handle in seconds. We build the systems that make that happen — no fluff,
-              no slide decks, just working software in your stack.
+             Most teams are buried in repetitive work AI can already handle.
+            We build systems that plug into your business, automate the boring parts,
+            and quietly save hours every week.
             </p>
           </Reveal>
           <div className="flex flex-col divide-y divide-forge-border">

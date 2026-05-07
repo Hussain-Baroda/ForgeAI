@@ -17,7 +17,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      'Every other agency sent a proposal. ForgeAI sent a working prototype on day five. We signed the next day. The agent\'s been running clean for four months.',
+      'Every other agency sent a proposal. Burhan and Hussain sent a working prototype by day five. We signed the next day. The system’s been running flawlessly for four months. ',
     name:    'Sarah Okonkwo',
     role:    'Head of Operations',
     company: 'NovaTech',
@@ -27,7 +27,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      'Our inbox agent now drafts 90% of client replies. My team reviews and sends. We reclaimed about 3 hours a day per person. It paid for itself in the first month.',
+      'Our team was drowning in repetitive emails.Thanks to ForgeAI, they deployed an inbox agent that now handles around 90% of replies. We gained back hours every single day.The time savings alone covered the investment in the first month.',
     name:    'David Osei',
     role:    'Founder',
     company: 'Meridian Labs',

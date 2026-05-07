@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import Reveal from './ui/Reveal';
 
 const SERVICES = [
-  { num: '01', icon: '📥', name: 'AI Inbox Agents',       desc: "Triages emails, drafts replies, routes to the right person — works 24/7 without a VA.",   accent: 'rgba(245,166,35,0.12)' },
-  { num: '02', icon: '🎯', name: 'Lead Qualification',    desc: 'Scores inbound leads, books calls, and updates your CRM. Zero manual entry, ever.',        accent: 'rgba(74,222,128,0.08)' },
-  { num: '03', icon: '🔗', name: 'CRM Integrations',      desc: 'Connects your tools — HubSpot, Salesforce, Notion, Airtable — with intelligent data flow.', accent: 'rgba(99,102,241,0.1)'  },
-  { num: '04', icon: '🎙️', name: 'Voice Agents',          desc: 'Inbound and outbound AI voice that qualifies, books, and follows up — on the phone.',      accent: 'rgba(245,166,35,0.08)' },
-  { num: '05', icon: '📚', name: 'RAG Knowledge Systems', desc: "Index your docs, SOPs, and data — give your team an AI that actually knows your business.", accent: 'rgba(0,194,255,0.07)'  },
-  { num: '06', icon: '⚙️', name: 'Ops Automation',        desc: "End-to-end workflow automation. If it's repetitive and manual, we can automate it.",        accent: 'rgba(248,113,113,0.08)'},
+  { num: '01', icon: '📥', name: 'AI Inbox Agents',       desc: "Intelligent AI agents built for customer support, operations, research, and execution workflows.",   accent: 'rgba(245,166,35,0.12)' },
+  { num: '02',icon: '💻',  name: 'Website Development',   desc: 'Modern, high-performance websites and web apps built for speed, scalability, and conversion.', accent: 'rgba(74,222,128,0.08)'},
+  { num: '03', icon: '🔗', name: 'CRM & Revenue Systems',      desc: 'Lead qualification, CRM integrations, pipeline automation, and sales workflows designed to increase conversion and reduce manual work.', accent: 'rgba(99,102,241,0.1)'  },
+  { num: '04',icon: '🔑',  name: 'API Integration',       desc: 'Seamlessly connect platforms, automate workflows, and sync data across your entire business stack.', accent: 'rgba(245,166,35,0.08)'}, 
+  { num: '05', icon: '📚', name: 'AI Knowledge Systems', desc: "Transform your SOPs, documentation, and business data into AI-powered knowledge systems your team can query instantly.", accent: 'rgba(0,194,255,0.07)'  },
+  { num: '06', icon: '⚙️', name: 'Workflow Automation',        desc: "We automate repetitive operational workflows so your team stops wasting hours on manual tasks.",        accent: 'rgba(248,113,113,0.08)'},
 ];
 
 function ServiceCard({ num, icon, name, desc, accent, index }) {
@@ -46,7 +46,7 @@ export default function Services() {
         </Reveal>
         <Reveal delay={0.08}>
           <h2 className="font-display text-[32px] sm:text-[40px] lg:text-[52px] font-extrabold tracking-[-1px] leading-[1.05] mb-12 lg:mb-16">
-            Six types of agents.{' '}
+            Multiple Services.{' '}
             <span className="text-white/28">Infinite combinations.</span>
           </h2>
         </Reveal>

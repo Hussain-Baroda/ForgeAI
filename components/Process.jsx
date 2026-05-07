@@ -15,14 +15,14 @@ const STEPS = [
     num: '02',
     name: 'Build',
     time: 'Weeks 2–3',
-    desc: 'Small senior team ships a working agent into your stack. You watch it work in production, not a sandbox.',
+    desc: 'Small  team ships a working agent into your stack. You watch it work in production.',
     items: ['Agent architecture', 'Integration build', 'Testing in prod'],
   },
   {
     num: '03',
     name: 'Deploy',
     time: 'Week 3',
-    desc: 'Live in your real stack with full handoff docs, a Loom walkthrough, and zero surprises at the end.',
+    desc: 'Full deployment, walkthroughs, documentation, and team handoff.',
     items: ['Production deploy', 'Team walkthrough', 'Handoff docs'],
   },
   {
@@ -97,8 +97,7 @@ export default function Process() {
           </Reveal>
           <Reveal delay={0.14}>
             <p className="text-[14px] text-white/35 max-w-xs leading-relaxed lg:text-right">
-              We don't do six-week discoveries. You have a working agent in
-              production before the competition finishes their deck.
+              No endless discovery calls. While other agencies are still making slides, your system is already live.
             </p>
           </Reveal>
         </div>
@@ -131,10 +130,10 @@ export default function Process() {
           <div className="mt-16 flex flex-col sm:flex-row items-center justify-between gap-4 border border-forge-border rounded-xl px-8 py-6 bg-white/[0.02]">
             <div>
               <p className="font-display font-bold text-white text-[15px] mb-1">
-                Ready to skip the discovery phase?
+                Ready to show what’s slowing your team down?
               </p>
               <p className="text-[13px] text-white/35">
-                Tell us what to automate. We'll send a plan back the same day.
+                We’ll map the workflow and send back a practical automation plan.
               </p>
             </div>
             <a

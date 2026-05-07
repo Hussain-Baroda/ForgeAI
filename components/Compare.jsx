@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import Reveal from './ui/Reveal';
 
 const ROWS = [
-  { them: 'Six-week discovery before a single line of code',            us: 'Working agent in your stack inside two weeks'             },
+  { them: 'Six-week discovery before a single line of code',            us: 'First production workflow deployed within 14 days.'             },
   { them: 'A 60-slide deck the partner reads aloud to you',             us: "A short Loom, a live demo, a one-page doc — that's it"    },
-  { them: 'Junior team trained on your dime mid-project',               us: 'Senior operators only — we build what we design'           },
+  { them: 'Immature team trained on your dime mid-project',               us: 'Skilled engineers only — we build what we design'           },
   { them: 'Bills you for prompts, meetings, and PowerPoints',           us: 'Bills you for outcomes that show up in your dashboard'     },
   { them: 'Hands you a roadmap and disappears post-launch',             us: "Stays on as the agent's mechanic — evals, monitoring, fixes"},
   { them: 'One-size-fits-all LLM wrapper dressed up as "AI strategy"', us: 'Custom architecture scoped to your exact workflow'         },

@@ -35,7 +35,7 @@ const TEAM = [
     color:    'bg-amber-500/15 text-amber-300',
   },
   {
-    initials: 'B',
+    initials: 'BAC',
     name:     'Burhan Contractor',
     role:     'Co-founder & AI Engineer',
     bio:      'Focused on AI automation, agent orchestration, and production-ready ML systems that solve real problems.',
@@ -126,10 +126,10 @@ export default function About() {
                   <p className="font-display text-[12px] font-bold text-white">Hussain Barodawala</p>
                   <p className="text-[11px] text-white/30">Founder, ForgeAI</p>
                 </div>
-                
+
                 {/* Founder signature */}
                 <div className="w-9 h-9 rounded-full bg-forge-amber/15 border border-forge-amber/25 flex items-center justify-center font-display text-[12px] font-extrabold text-forge-amber">
-                  B
+                  BAC
                 </div>
                 <div>
                   <p className="font-display text-[12px] font-bold text-white">Burhan Contractor</p>
